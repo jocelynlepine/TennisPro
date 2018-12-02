@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisPro", "TennisPro\TennisPro.csproj", "{98B4CC23-0097-477C-A83B-9AFC7BFA51BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisProUI", "TennisPro\TennisProUI.csproj", "{98B4CC23-0097-477C-A83B-9AFC7BFA51BB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplocationCore", "ApplocationCore\ApplocationCore.csproj", "{04F60E3C-EE9D-49D5-8839-4250C7C00959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestTennisPro", "UnitTestTennisPro\UnitTestTennisPro.csproj", "{7BA4DBB3-86CA-4C22-8DEC-4DD6AD9F882F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{01017E35-DC30-476F-B600-5C5DB8BC9595}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,10 @@ Global
 		{04F60E3C-EE9D-49D5-8839-4250C7C00959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04F60E3C-EE9D-49D5-8839-4250C7C00959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04F60E3C-EE9D-49D5-8839-4250C7C00959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA4DBB3-86CA-4C22-8DEC-4DD6AD9F882F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA4DBB3-86CA-4C22-8DEC-4DD6AD9F882F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA4DBB3-86CA-4C22-8DEC-4DD6AD9F882F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA4DBB3-86CA-4C22-8DEC-4DD6AD9F882F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
